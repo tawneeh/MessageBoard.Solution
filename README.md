@@ -9,6 +9,16 @@
 
 This application will act as a message board service that can be accessed via my API.
 
+## Prompt
+
+Create a message board service that can be accessed via your API. Users should be able to GET and POST messages for specific message boards. Note that you will have to create custom endpoints for some of these user stories.
+
+* As a user, I want to be able to GET all messages related to a specific group.
+* As a user, I want to be able to POST messages to a specific group.
+* As a user, I want to be able to see a list of all groups.
+* As a user, I want to input date parameters and retrieve only messages posted during that timeframe.
+* As a user, I want to be able to PUT and DELETE messages, but only if I wrote them. (Start by requiring a user_name param to match the user_name of the author on the message. You can always try authentication later.)
+
 ## Setup/Installation Requirements
 
 Software Requirements
